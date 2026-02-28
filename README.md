@@ -1,5 +1,17 @@
 # Home Cybersecurity Lab – Vulnerability Exploitation Project
 
+## Skills Demonstrated
+
+- Network reconnaissance using Nmap
+- Vulnerability research using Searchsploit
+- Exploit execution using Metasploit Framework
+- Linux command-line operations
+- Privilege validation and root access confirmation
+- Risk impact analysis
+- Security documentation and reporting
+
+---
+
 ## Overview
 I built an isolated cybersecurity lab using VirtualBox with an attacker machine (Kali Linux) and a vulnerable target system (Metasploitable2).
 
