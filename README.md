@@ -56,7 +56,7 @@ Achieved root-level access and verified full system compromise.
 ![Target IP](images/02_target-ip.png)
 
 ### 3. Nmap Service Enumeration
-![Nmap Enumeration](images/03_nmap-enumeration.png)
+![Nmap Enumeration](images/03_nmap_enumeration.png)
 
 ### 4. Vulnerability Identification
 ![Vulnerability Identification](images/04_vulnerability-identification.png)
