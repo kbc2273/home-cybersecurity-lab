@@ -78,7 +78,7 @@ Achieved root-level access and verified full system compromise.
 ## Report
 Full vulnerability assessment report:
 
-Home_Cybersecurity_Lab_Report_Watermarked_Korbin_Cartwright.pdf
+[Download Full Report](Home_Cybersecurity_Lab_Report.pdf)
 
 ---
 
