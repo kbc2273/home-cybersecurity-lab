@@ -1,21 +1,17 @@
-# Home Cybersecurity Lab – Vulnerability Exploitation Project
+# Home Cybersecurity Lab – Vulnerability Exploitation & Detection Project
 
-## Skills Demonstrated
-
-- Network reconnaissance using Nmap
-- Vulnerability research using Searchsploit
-- Exploit execution using Metasploit Framework
-- Linux command-line operations
-- Privilege validation and root access confirmation
-- Risk impact analysis
-- Security documentation and reporting
-
+## Objective
+Perform end-to-end vulnerability assessment within an isolated lab environment, including reconnaissance, vulnerability identification, exploitation, and post-exploitation validation.
 ---
 
 ## Overview
-I built an isolated cybersecurity lab using VirtualBox with an attacker machine (Kali Linux) and a vulnerable target system (Metasploitable2).
+Built an isolated cybersecurity lab using VirtualBox consisting of an attacker machine (Kali Linux) and a vulnerable target system (Metasploitable2).
 
-The goal was to simulate a real-world security assessment by performing reconnaissance, identifying vulnerabilities, exploiting a known weakness, and validating system compromise.
+Conducted a full penetration testing workflow including network reconnaissance, service enumeration, vulnerability research, exploitation, and root-level access validation.
+
+Documented findings and analyzed security risk impact based on discovered vulnerabilities.
+
+
 
 ---
 
@@ -24,27 +20,36 @@ The goal was to simulate a real-world security assessment by performing reconnai
 - Hypervisor: Oracle VirtualBox
 - Attacker System: Kali Linux
 - Target System: Metasploitable2
-- Network: Host-Only Adapter (isolated lab)
+- Network Type: Host-Only Adapter (Isolated Environment)
 
 ---
 
 ## Assessment Process
 
 ### 1. Target Verification
-Confirmed network connectivity between attacker and target machines.
+Validated network connectivity between attacker and target systems.
 
 ### 2. Service Enumeration
-Used Nmap to identify open ports and running services.
+Performed network scanning using Nmap to identify open ports and exposed services.
 
 ### 3. Vulnerability Identification
-Discovered vulnerable FTP service running VSFTPD 2.3.4.
+Researched detected services and identified vulnerable VSFTPD 2.3.4 FTP service.
 
 ### 4. Exploitation
-Used Metasploit Framework to exploit the VSFTPD backdoor vulnerability.
+Executed Metasploit Framework exploit targeting VSFTPD backdoor vulnerability.
 
 ### 5. Post-Exploitation Validation
-Achieved root-level access and verified full system compromise.
+Achieved root-level system access confirming successful compromise.
 
+
+## Skills Demonstrated
+- Network reconnaissance using Nmap
+- Vulnerability research using Searchsploit
+- Exploit execution using Metasploit Framework
+- Linux command-line operations
+- Privilege escalation validation
+- Risk impact analysis
+- Security documentation and reporting
 ---
 
 ## Evidence Screenshots
@@ -81,6 +86,12 @@ Full vulnerability assessment report:
 [Download Full Report](Home_Cybersecurity_Lab_Report.pdf)
 
 ---
+## Key Outcomes
+- Successfully compromised vulnerable system through identified service weakness
+- Validated attacker visibility and system access
+- Demonstrated practical penetration testing workflow
+- Produced professional security assessment documentation
+
 
 ## Key Takeaways
 - Demonstrated end-to-end penetration testing workflow
