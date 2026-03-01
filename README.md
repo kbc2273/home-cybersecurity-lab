@@ -48,7 +48,30 @@ Achieved root-level access and verified full system compromise.
 ---
 
 ## Evidence Screenshots
-(See uploaded images in this repository)
+
+### 1. Lab Setup
+![Lab Setup](images/01_lab-setup.png)
+
+### 2. Target IP Verification
+![Target IP](images/02_target-ip.png)
+
+### 3. Nmap Service Enumeration
+![Nmap Enumeration](images/03_nmap-enumeration.png)
+
+### 4. Vulnerability Identification
+![Vulnerability Identification](images/04_vulnerability-identification.png)
+
+### 5. Metasploit Module Discovery
+![Metasploit Modules](images/05_metasploit-module-discovery.png)
+
+### 6. Exploit Attempt Execution
+![Exploit Attempt](images/06_exploit-attempt.png)
+
+### 7. Successful Remote Exploitation
+![Successful Exploit](images/07_successful-exploit.png)
+
+### 8. Root Access Proof
+![Root Proof](images/08_root-proof.png)
 
 ---
 
